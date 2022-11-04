@@ -12,4 +12,3 @@ workflows:
           parallelism: 4
           group: 'all tests'
           start: 'npm-start'
-          wait-on: 'http://localhost:3000'
